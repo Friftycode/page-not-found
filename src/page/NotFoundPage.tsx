@@ -13,9 +13,14 @@ const NotFoundPage = () => {
         <p className={styles.pageParagraph}>
           Looks like we took a wrong turn somewhere and landed on this empty
           page. Not exactly what you were hoping for, right? Hit the button
-          bellow, and we’ll whisk you away to the comfort of the homepage.
+          below, and we’ll whisk you away to the comfort of the homepage.
         </p>
-        <button className={styles.button}>
+        <button
+          className={styles.button}
+          onClick={() => {
+            // TODO: Replace with navigation logic, e.g., navigate('/');
+          }}
+        >
           Let’s pretend this never happened and take me to the homepage
         </button>
       </div>
