@@ -1,11 +1,10 @@
-import './App.css'
-
+import NotFoundPage from './page/NotFoundPage.tsx';
 function App() {
-
   return (
     <>
+      <NotFoundPage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
