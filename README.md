@@ -4,7 +4,6 @@ A modern, animated 404 "Page Not Found" React app with custom illustrations and 
 
 ![readme.png](src/assets/readme.png)
 
-
 ---
 
 ### **Technologies**
