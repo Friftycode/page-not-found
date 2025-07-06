@@ -19,7 +19,6 @@ const NotFoundPage = () => {
           className={styles.button}
           onClick={() => {
             window.alert('Remember to add functionality to the button');
-            // TODO: Replace with navigation logic, e.g., navigate('/');
           }}
         >
           Let’s pretend this never happened and take me to the homepage
