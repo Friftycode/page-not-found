@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    ". header."
+    ". content."
     "rocket . moon"
     ". astronaut .";
   text-align: center;
@@ -15,7 +15,7 @@
   @media @breakpoint-tablet {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "header"
+      "content"
       "moon"
       "rocket"
       "astronaut";
@@ -51,7 +51,7 @@
 }
 
 .content {
-  grid-area: header;
+  grid-area: content;
 }
 
 .moon {
