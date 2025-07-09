@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    ". header."
+    ". content."
     "rocket . moon"
     ". astronaut .";
   text-align: center;
@@ -15,20 +15,20 @@
   @media @breakpoint-tablet {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "header"
+      "content"
       "moon"
       "rocket"
       "astronaut";
   }
 }
 
-.pageTitle {
+.title {
   margin-top: var(--spacing-large);
   font-size: var(--font-size-xlarge);
   font-weight: var(--font-weight-bold);
 }
 
-.pageParagraph {
+.paragraph {
   font-size: var(--font-size-medium);
 }
 
@@ -50,8 +50,8 @@
   }
 }
 
-.header {
-  grid-area: header;
+.content {
+  grid-area: content;
 }
 
 .moon {
